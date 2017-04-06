@@ -1,12 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeddyUnityWork_UI", "TeddyUnityWork_UI.csproj", "{B344B2D7-C8F3-6E9C-23C2-E7593380AD1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeddyUnityWork_UI.Editor", "TeddyUnityWork_UI.Editor.csproj", "{A321A0F6-EB8B-6DDB-0D86-BB3D40BE74E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B344B2D7-C8F3-6E9C-23C2-E7593380AD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B344B2D7-C8F3-6E9C-23C2-E7593380AD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B344B2D7-C8F3-6E9C-23C2-E7593380AD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B344B2D7-C8F3-6E9C-23C2-E7593380AD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A321A0F6-EB8B-6DDB-0D86-BB3D40BE74E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A321A0F6-EB8B-6DDB-0D86-BB3D40BE74E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A321A0F6-EB8B-6DDB-0D86-BB3D40BE74E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A321A0F6-EB8B-6DDB-0D86-BB3D40BE74E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
