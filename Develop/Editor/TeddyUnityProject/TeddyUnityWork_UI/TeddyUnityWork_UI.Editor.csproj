@@ -182,6 +182,11 @@
     <Compile Include="Assets\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Artist\Atlas\Empty.txt" />
+    <None Include="Assets\Artist\Empty.txt" />
+    <None Include="Assets\Artist\ScenePrefab\Empty.txt" />
+    <None Include="Assets\Artist\Script\Empty.txt" />
+    <None Include="Assets\Artist\Texture\Empty.txt" />
     <None Include="Assets\NGUI\Empty.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />

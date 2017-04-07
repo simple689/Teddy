@@ -64,7 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Artist\Script\NGUIButtonClick.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -207,6 +206,11 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Artist\Atlas\Empty.txt" />
+    <None Include="Assets\Artist\Empty.txt" />
+    <None Include="Assets\Artist\ScenePrefab\Empty.txt" />
+    <None Include="Assets\Artist\Script\Empty.txt" />
+    <None Include="Assets\Artist\Texture\Empty.txt" />
     <None Include="Assets\NGUI\Empty.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
