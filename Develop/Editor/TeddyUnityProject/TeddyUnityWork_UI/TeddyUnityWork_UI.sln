@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeddyUnityWork_UI", "TeddyUnityWork_UI.csproj", "{B344B2D7-C8F3-6E9C-23C2-E7593380AD1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeddyUnityWork_UI.Editor", "TeddyUnityWork_UI.Editor.csproj", "{A321A0F6-EB8B-6DDB-0D86-BB3D40BE74E2}"

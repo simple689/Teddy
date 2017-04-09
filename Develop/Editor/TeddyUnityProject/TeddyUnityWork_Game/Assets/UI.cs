@@ -7,18 +7,17 @@ public class UI : MonoBehaviour {
     private GameObject m_g;
 
     private void Awake() {
-        if (m_g == null)
-        {
+        if (m_g == null) {
             m_g = Instantiate(aa);
         }
     }
     // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Start() {
+
+    }
+
+    // Update is called once per frame
+    void Update() {
+
+    }
 }
