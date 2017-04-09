@@ -88,6 +88,9 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
     <Reference Include="TeddyUnityPlugin_HierarchySort">
       <HintPath>Assets\Plugin\TeddyUnityPlugin_HierarchySort.dll</HintPath>
     </Reference>
