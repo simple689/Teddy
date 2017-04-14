@@ -38,15 +38,15 @@ namespace Teddy {
 
         void onGUI() {
             GUI.Label(_allocMemoryRect,
-                string.Format(_totalAllocMemroyFormation, Profiler.GetTotalAllocatedMemory() * _byteToM));
+                string.Format(_totalAllocMemroyFormation, UnityEngine.Profiling.Profiler.GetTotalAllocatedMemory() * _byteToM));
             GUI.Label(_reservedMemoryRect,
-                string.Format(_totalReservedMemoryFormation, Profiler.GetTotalReservedMemory() * _byteToM));
+                string.Format(_totalReservedMemoryFormation, UnityEngine.Profiling.Profiler.GetTotalReservedMemory() * _byteToM));
             GUI.Label(_unusedReservedMemoryRect,
-                string.Format(_totalUnusedReservedMemoryFormation, Profiler.GetTotalUnusedReservedMemory() * _byteToM));
+                string.Format(_totalUnusedReservedMemoryFormation, UnityEngine.Profiling.Profiler.GetTotalUnusedReservedMemory() * _byteToM));
             GUI.Label(_monoHeapRect,
-                string.Format(_monoHeapFormation, Profiler.GetMonoHeapSize() * _byteToM));
+                string.Format(_monoHeapFormation, UnityEngine.Profiling.Profiler.GetMonoHeapSize() * _byteToM));
             GUI.Label(_monoUsedRect,
-                string.Format(_monoUsedFormation, Profiler.GetMonoUsedSize() * _byteToM));
+                string.Format(_monoUsedFormation, UnityEngine.Profiling.Profiler.GetMonoUsedSize() * _byteToM));
         }
     }
 }
